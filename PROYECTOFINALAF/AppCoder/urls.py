@@ -4,6 +4,7 @@ from AppCoder import views
 
 urlpatterns = [
     path('', views.inicio, name="Inicio"),
+    path ('sobreMi', views.sobreMi, name="sobreMi"),
     path('cursos', views.cursos, name="Cursos"),
     path('profesores', views.profesores, name="Profesores"),
     path('estudiantes', views.estudiantes, name="Estudiantes"),

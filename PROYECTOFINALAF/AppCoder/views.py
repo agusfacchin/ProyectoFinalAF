@@ -182,4 +182,7 @@ def agregarAvatar(request):
       return render(request, "AppCoder/agregarAvatar.html", {"miFormulario":miFormulario})
 
 def urlImagen():
-      return "/media/avatares/logo.png"
+      return "/media/avatares/imagenuno.png"
+
+def sobreMi (request):
+      return render (request, 'sobreMi.html')
